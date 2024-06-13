@@ -1,6 +1,6 @@
 {
   "name": "writable-console",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "snomiao <snomiao@gmail.com>",
   "type": "module",
   "exports": {
@@ -18,13 +18,12 @@
     "release": "bunx standard-version && git push --follow-tags && npm publish",
     "test": "bun test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "polyfill-text-decoder-stream": "^0.0.7",
-    "polyfill-text-encoder-stream": "^0.0.4",
     "@types/bun": "^1.1.4",
     "@types/jest": "^29.5.12",
+    "polyfill-text-decoder-stream": "^0.0.7",
+    "polyfill-text-encoder-stream": "^0.0.4",
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
