@@ -19,10 +19,10 @@
     "test": "bun test"
   },
   "dependencies": {
-    "polyfill-text-decoder-stream": "^0.0.7",
-    "polyfill-text-encoder-stream": "^0.0.4"
   },
   "devDependencies": {
+    "polyfill-text-decoder-stream": "^0.0.7",
+    "polyfill-text-encoder-stream": "^0.0.4",
     "@types/bun": "^1.1.4",
     "@types/jest": "^29.5.12",
     "typescript": "^5.4.5"
