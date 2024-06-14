@@ -1,9 +1,12 @@
 export class WritableConsole extends WritableStream {
-  constructor(write = console.write.bind(console)) {
+  constructor({endlf=true, write = console.write.bind(console) }={}) {
     super({
       write: (chunk) => {
         write(chunk);
       },
+      close: () => {
+        if(endlf) write('\n');
+      }
     });
   }
 }
