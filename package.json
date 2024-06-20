@@ -1,6 +1,7 @@
 {
   "name": "writable-console",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "description": "Simple WritableStream => console.write, works both text chunks and UInt8Array.",
   "author": "snomiao <snomiao@gmail.com>",
   "type": "module",
   "exports": {
