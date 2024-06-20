@@ -1,6 +1,6 @@
 {
   "name": "writable-console",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple WritableStream => console.write, works both text chunks and UInt8Array.",
   "author": "snomiao <snomiao@gmail.com>",
   "type": "module",
@@ -9,6 +9,7 @@
     "types": "./index.ts"
   },
   "module": "index.ts",
+  "types": "./index.ts",
   "files": [
     "*.ts",
     "dist"
@@ -21,7 +22,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/bun": "^1.1.4",
+    "@types/bun": "^1.1.5",
     "@types/jest": "^29.5.12",
     "polyfill-text-decoder-stream": "^0.0.7",
     "polyfill-text-encoder-stream": "^0.0.4",
