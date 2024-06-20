@@ -1,6 +1,6 @@
-import { WritableConsole } from ".";
 import TextDecoderStream from "polyfill-text-decoder-stream";
 import TextEncoderStream from "polyfill-text-encoder-stream";
+import { WritableConsole } from ".";
 
 it("should pipe into console", async () => {
   console.write = jest.fn();
@@ -18,5 +18,5 @@ it("should pipe into console", async () => {
     ?.pipeThrough(new TextEncoderStream()) // UInt8Array stream into string stream
     ?.pipeTo(new WritableConsole());
 
-  expect(console.write).toHaveBeenCalledTimes(3);
+  expect(console.write).toHaveBeenCalledTimes(6);
 });

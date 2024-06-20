@@ -8,8 +8,8 @@
     "import": "./dist/index.js",
     "types": "./index.ts"
   },
-  "module": "index.ts",
   "types": "./index.ts",
+  "module": "index.ts",
   "files": [
     "*.ts",
     "dist"
